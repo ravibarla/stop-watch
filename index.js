@@ -59,7 +59,7 @@ function clickHandler(e) {
         clearInterval(myInterval)
         Timer.minute=0
         Timer.seconds=0
-        timeElement.innerHTML="00:00"
+        timeElement.innerHTML="00 : 00"
         changeBtnColor(e.target.id)
     }
 }
