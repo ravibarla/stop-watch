@@ -4,7 +4,8 @@
 }
 
 .container{
-    background-color: rgb(40, 2, 69);
+    background-color: #5e057e;
+    /* //rgb(40, 2, 69) */
     color: white;
     border-radius: 60px;
 }
@@ -22,9 +23,6 @@ input{
 }
 
  
-.start{
-    background-color: rgb(250, 21, 215); 
-} 
 
 input{
     border-radius: 45%;
