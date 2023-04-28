@@ -1,5 +1,5 @@
 //storing the time element 
-const t=document.getElementById('time')
+const timeElement=document.getElementById('time')
 
 //object to set the minutes and seconds
 const Timer={
@@ -30,7 +30,7 @@ function clickHandler(e) {
         clearInterval(myInterval)
         Timer.minute=0
         Timer.seconds=0
-        document.getElementById('time').innerHTML="00:00"
+        timeElement.innerHTML="00:00"
     }
 }
 
@@ -46,7 +46,7 @@ function updateCurrentTime() {
         Timer.minute++
         Timer.seconds=0
     }
-    t.innerHTML=formatTime(Timer.minute)+' : '+formatTime(Timer.seconds)
+    timeElement.innerHTML=formatTime(Timer.minute)+' : '+formatTime(Timer.seconds)
 }
 
 //function to initialise the timer
