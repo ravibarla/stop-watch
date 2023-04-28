@@ -1,8 +1,18 @@
-.border{
-    border: 2px solid black;
+.border1{
+    border: 2px solid whitesmoke;
 }
+
 
 #time{
     height: 50px;
     width: 100%;
+}
+
+.container{
+    background-color: black;
+    color: azure;
+}
+
+body{
+    background-color: whitesmoke;
 }
