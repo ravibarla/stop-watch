@@ -1,5 +1,4 @@
 const t=document.getElementById('time')
-
 const currentTime={
     minute:0,
     seconds:0,
@@ -11,6 +10,7 @@ function showNotification(txt) {
     alert(txt)
     clearInterval(myInterval)
   }
+  
 
 function clickHandler(e) {
     if(e.target.name=='start'){
@@ -21,12 +21,16 @@ function clickHandler(e) {
       
     }
     if(e.target.name=='reset'){
-        document.getElementById('time').innerHTML=" 0 0 : 0 0"
+      
+        clearInterval(myInterval)
+        currentTime.minute=0
+        currentTime.seconds=0
+        document.getElementById('time').innerHTML="00:00"
     }
 }
 
 function formatTime(time) {
-    return time<10?'0'+time:time
+    return (time<10 ||time==0)?'0'+time:time
 }
 
 
