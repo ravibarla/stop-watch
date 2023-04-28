@@ -4,8 +4,10 @@
 }
 
 .container{
-    background-color: #5e057e;
-    /* //rgb(40, 2, 69) */
+    background-color: #00142f;
+    /* #630b89 */
+    /* #4d0877 */
+    /* #440c58 */
     color: white;
     border-radius: 60px;
 }
@@ -15,7 +17,7 @@ body{
 }
 
 input{
-    background-color: rgb(164, 8, 248);
+    background-color: #504E63;
 }
 
 *{

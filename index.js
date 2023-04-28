@@ -16,7 +16,9 @@ function showNotification(txt) {
   
  //reset-color buttons 
 function reset(id){
-    document.getElementById(id).style.backgroundColor=`rgb(164, 8, 248)`
+    document.getElementById(id).style.backgroundColor=`#504E63`
+    document.getElementById(id).style.color="white"
+    // rgb(164, 8, 248)
 }  
 
 //color-changing button handler
@@ -24,13 +26,15 @@ function changeBtnColor(id){
     if(id=="start"){
         reset('stop')
         reset('reset')
-        document.getElementById(id).style.backgroundColor=`rgb(250, 21, 215)`
+        document.getElementById(id).style.backgroundColor=`#C0C0C0`
+        document.getElementById(id).style.color=`#00142f`
         
     }
     if(id=="stop"){
         reset('start')
         reset('reset')
-        document.getElementById(id).style.backgroundColor=`rgb(250, 21, 215)`
+        document.getElementById(id).style.backgroundColor=`#C0C0C0`
+        document.getElementById(id).style.color=`#00142f`
     }
     if(id=="reset"){
         reset('start')
