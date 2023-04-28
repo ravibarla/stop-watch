@@ -1,18 +1,33 @@
-.border1{
-    border: 2px solid whitesmoke;
-}
-
-
 #time{
     height: 50px;
     width: 100%;
 }
 
 .container{
-    background-color: black;
-    color: azure;
+    background-color: rgb(40, 2, 69);
+    color: white;
+    border-radius: 60px;
 }
 
 body{
     background-color: whitesmoke;
+}
+
+input{
+    background-color: rgb(164, 8, 248);
+}
+
+*{
+    color: white;
+}
+
+ 
+.start{
+    background-color: rgb(250, 21, 215); 
+} 
+
+input{
+    border-radius: 45%;
+    width: 100px;
+    height: 60px;
 }
