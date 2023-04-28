@@ -3,8 +3,8 @@ const t=document.getElementById('time')
 const currentTime={
     minute:0,
     seconds:0,
-    maxMinute:02,
-    maxSeconds:20
+    maxMinute:60,
+    maxSeconds:60
 }
 
 function showNotification(txt) {
