@@ -2,7 +2,6 @@ const t=document.getElementById('time')
 const currentTime={
     minute:0,
     seconds:0,
-    maxMinute:60,
     maxSeconds:60
 }
 
@@ -39,11 +38,6 @@ function updateCurrentTime() {
     if(currentTime.seconds==currentTime.maxSeconds){
         currentTime.minute++
         currentTime.seconds=0
-    }
-    if(currentTime.minute==currentTime.maxMinute){
-        currentTime.seconds++
-        currentTime.minute++
-        showNotification("limit is reached minute cannot be more than 60")
     }
     t.innerHTML=formatTime(currentTime.minute)+' : '+formatTime(currentTime.seconds)
 }
