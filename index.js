@@ -18,7 +18,6 @@ function showNotification(txt) {
 function reset(id){
     document.getElementById(id).style.backgroundColor=`#504E63`
     document.getElementById(id).style.color="white"
-    // rgb(164, 8, 248)
 }  
 
 //color-changing button handler
