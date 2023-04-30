@@ -7,6 +7,7 @@
     background-color: #00142f;
     color: white;
     border-radius: 60px;
+    min-width: 647px;
 }
 
 body{
